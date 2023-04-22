@@ -1,6 +1,13 @@
-@media (max-width: 1120px) {
+@media (max-width: 1200px) {
   .slider_section .detail-box h1 {
     font-size: 4.5rem;
+  }
+  .carousel-inner {
+    top: -60px;
+    left: -95px;
+  }
+  .detail-content {
+    padding-left: 60px;
   }
 }
 
@@ -23,6 +30,9 @@
 }
 
 @media (max-width: 768px) {
+  .detail-content {
+    padding-left: 0;
+  }
   .row {
     margin: 0;
   }
@@ -64,6 +74,8 @@
   }
   .carousel-inner {
     width: 100%important;
+    top: 0;
+    left: 0;
   }
   .hero_area {
     background: linear-gradient(to bottom, #f2f7fd 50%, #1d1e31 45%);
