@@ -337,6 +337,13 @@ a:focus {
   color: #1d1e31;
 }
 
+.slider_section .carousel-inner {
+  width: fit-content;
+}
+
+.slider_section .img-box {
+  width: fit-content;
+}
 .slider_section .img-box img {
   height: 800px;
   width: auto;
@@ -387,9 +394,6 @@ a:focus {
   height: 30px;
   background-color: #1d1e31;
   opacity: 1;
-}
-.carousel-inner {
-  max-width: 700px;
 }
 
 .slider_section .carousel-indicators li.active {
