@@ -386,7 +386,6 @@ a:focus {
   left: 25px;
   -webkit-transform: translateY(50%);
   transform: translateY(50%);
-  margin-bottom: 7px;
 }
 
 .slider_section .carousel-indicators li {
