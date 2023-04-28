@@ -52,6 +52,7 @@
   }
   .content-slider {
     padding: 0;
+    padding-bottom: 50px;
   }
   .slider_section .img-box img {
     height: auto !important;

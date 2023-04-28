@@ -386,6 +386,7 @@ a:focus {
   left: 25px;
   -webkit-transform: translateY(50%);
   transform: translateY(50%);
+  margin-bottom: 7px;
 }
 
 .slider_section .carousel-indicators li {
@@ -394,6 +395,8 @@ a:focus {
   height: 30px;
   background-color: #1d1e31;
   opacity: 1;
+  border: 1px solid transparent;
+  border-radius: 8px;
 }
 
 .slider_section .carousel-indicators li.active {
